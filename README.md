@@ -13,7 +13,7 @@ to the original and modified source code.
 
 Un-modified sources are maintained in the master branch and in the Jidoteki OSS repo:
 
-* [https://github.com/unscramble/tinycorelinux-x86_64/tree/master](https://github.com/unscramble/tinycorelinux-x86_64/tree/master)
+* [https://github.com/jidoteki/tinycorelinux-x86_64/tree/master](https://github.com/jidoteki/tinycorelinux-x86_64/tree/master)
 
 and
 
@@ -23,7 +23,7 @@ and
 
 Modified sources are maintained in the version branch:
 
-* [https://github.com/unscramble/tinycorelinux-x86_64/tree/6.4.1](https://github.com/unscramble/tinycorelinux-x86_64/tree/6.4.1)
+* [https://github.com/jidoteki/tinycorelinux-x86_64/tree/6.4.1](https://github.com/jidoteki/tinycorelinux-x86_64/tree/6.4.1)
 
 ## Un-published sources
 
