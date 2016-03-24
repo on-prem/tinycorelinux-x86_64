@@ -1,5 +1,5 @@
 Aterm*scrollBar: true
-Aterm*transparent: true
+Aterm*transparent: false
 Aterm*title: Terminal
 Aterm*foreground: white
 Aterm*background: black
