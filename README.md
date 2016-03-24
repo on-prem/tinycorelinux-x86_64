@@ -1,25 +1,29 @@
 # Remastered TinyCore Linux x86_64 (Core Pure 64)
 
-This is a slightly remastered version of [TinyCore Linux x86_64 (Core Pure 64)](http://tinycorelinux.net/).
+This is a slightly remastered version of [TinyCore Linux x86_64 (Core Pure 64)](http://tinycorelinux.net/)
 
 This document explains the changes we've made to the OS, along with links
 to the original and modified source code.
 
 ## Version
 
-[![Architecture](https://img.shields.io/badge/arch-x86__64-brightgreen.svg)] [![Version](https://img.shields.io/badge/version-6.4.1-blue.svg)]
+![Architecture](https://img.shields.io/badge/arch-x86__64-brightgreen.svg) ![Version](https://img.shields.io/badge/version-6.4.1-blue.svg)
 
 ## Un-modified sources
 
-Un-modified sources for TinyCore Linux `x86_64 v6.4.1` may be found here:
+Un-modified sources are maintained in the master branch and in the Jidoteki OSS repo:
 
-[https://opensource.jidoteki.com/tinycorelinux/x86_64/6.4.1/](https://opensource.jidoteki.com/tinycorelinux/x86_64/6.4.1/)
+* [https://github.com/unscramble/tinycorelinux-x86_64/tree/master](https://github.com/unscramble/tinycorelinux-x86_64/tree/master)
+
+and
+
+* [https://opensource.jidoteki.com/tinycorelinux/x86_64/6.4.1/](https://opensource.jidoteki.com/tinycorelinux/x86_64/6.4.1/)
 
 ## Modified sources
 
 Modified sources are maintained in the version branch:
 
-[https://github.com/unscramble/tinycorelinux-x86_64/tree/6.4.1](https://github.com/unscramble/tinycorelinux-x86_64/tree/6.4.1)
+* [https://github.com/unscramble/tinycorelinux-x86_64/tree/6.4.1](https://github.com/unscramble/tinycorelinux-x86_64/tree/6.4.1)
 
 ## Un-published sources
 
