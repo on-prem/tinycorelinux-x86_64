@@ -1,0 +1,13 @@
+Aterm*scrollBar: true
+Aterm*transparent: true
+Aterm*title: Terminal
+Aterm*foreground: white
+Aterm*background: black
+Aterm*font: fixed
+Aterm*cursorColor: green
+Aterm*fading: 70
+Aterm*shading: 50
+Aterm*color12: DodgerBlue1
+Aterm*saveLines: 1000
+fltk*scheme: gtk+
+Xft.dpi: 96.0

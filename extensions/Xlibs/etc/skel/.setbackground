@@ -1,0 +1,2 @@
+#!/bin/sh
+hsetroot -add "#0E5CA8" -add "#87C6C9" -gradient 0 -center /usr/local/share/pixmaps/logo.png
