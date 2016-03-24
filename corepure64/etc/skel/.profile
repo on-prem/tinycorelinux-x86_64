@@ -18,8 +18,6 @@ EDITOR=vi
 
 export PS1 PAGER FILEMGR EDITOR MANPAGER
 
-export BACKUP=1
-[ "`id -un`" = "`cat /etc/sysconfig/tcuser`" ] && echo "$BACKUP" | sudo tee /etc/sysconfig/backup >/dev/null 2>&1
 export FLWM_TITLEBAR_COLOR="58:7D:AA"
 
 if [ -f "$HOME/.ashrc" ]; then
@@ -27,10 +25,19 @@ if [ -f "$HOME/.ashrc" ]; then
    . "$HOME/.ashrc"
 fi
 
+export DISPLAY=:0.0
+export DESKTOP=flwm
+export ICONS=wbar
+export XAUTHORITY=$HOME/.Xauthority
+
 TERMTYPE=`/usr/bin/tty`
 [ ${TERMTYPE:5:3} == "tty" ] && (
 [ ! -f /etc/sysconfig/Xserver ] ||
 [ -f /etc/sysconfig/text ] ||
 [ -e /tmp/.X11-unix/X0 ] || 
-startx
+exec $HOME/.xsession
 )
+
+export JIDO_STUNNEL_BIN=stunnel
+export JIDO_WITH_SSL=true
+export JIDO_ADMIN_PATH=/opt/jidoteki/tinyadmin/

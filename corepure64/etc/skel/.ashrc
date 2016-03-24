@@ -25,3 +25,5 @@ alias rm='rm -i'
 
 alias d='dmenu_run &'
 alias ce='cd /etc/sysconfig/tcedir'
+
+alias disks='df -h | grep -v loop'
