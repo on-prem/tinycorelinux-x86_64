@@ -3,9 +3,13 @@ mount proc
 
 # Set the initial date
 export $(cat /proc/cmdline | tr ' ' '\n' | grep "^jido_builddate=")
-if [ -z ${jido_builddate+x} ]; then
+if [ ! -z ${jido_builddate-} ]; then
   [ "$jido_builddate" -lt `/bin/date +%s` ] || /bin/date +%s -s @${jido_builddate}
 fi
+
+# Set the backup_device
+export $(cat /proc/cmdline | tr ' ' '\n' | grep "^restore=")
+echo "$restore" > /etc/sysconfig/backup_device
 
 # Rename filetool wrapper
 mv /usr/bin/filetool.sh /usr/bin/filetool_orig.sh

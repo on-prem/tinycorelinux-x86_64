@@ -6,6 +6,9 @@
 . /etc/init.d/tc-functions
 useBusybox
 
+# wait 5 seconds for disks to settle
+sleep 5
+
 TCE="$1"
 DEVICE=""
 MYDATA=mydata
